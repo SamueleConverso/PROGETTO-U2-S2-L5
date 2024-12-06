@@ -32,6 +32,18 @@ header,
   border-radius: unset;
 }
 
+.navAvatarImg {
+  width: 30px;
+}
+
+header p.pKids {
+  margin: 0;
+}
+
+.avatarArrow:hover {
+  cursor: pointer;
+}
+
 .navbar-toggler-icon {
   background-image: url("../img/dropBtn.svg");
 }
@@ -89,4 +101,14 @@ a:visited {
 .serviceBtn a:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.241);
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+  width: fit-content;
 }

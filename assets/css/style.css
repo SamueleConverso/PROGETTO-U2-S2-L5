@@ -112,3 +112,41 @@ a:visited {
   justify-content: flex-end;
   width: fit-content;
 }
+
+hr {
+  border: 1px solid white;
+}
+
+.settingsAvatar {
+  width: 120px;
+}
+
+input {
+  width: 75%;
+  max-width: 300px;
+}
+
+#editBox p {
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  width: fit-content;
+  vertical-align: middle;
+}
+
+.serviceBtnSave a {
+  border: 1px solid rgba(255, 255, 255, 0.606);
+  padding: 10px;
+  background-color: white;
+  color: black !important;
+}
+
+.serviceBtnSave a:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.241);
+}
+
+input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.826);
+}

@@ -1,7 +1,38 @@
+* {
+  color: white !important;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: black;
+}
+
+header,
+.navbar,
+#imgLogo {
+  background-color: black !important;
+}
+
+.navbar {
+  border-bottom: 1px solid white !important;
+}
+
+header {
+  border-bottom: 1px solid white;
+}
+
+#imgLogo {
+  width: 78px;
+}
+
+.form-select {
+  background-color: black;
+  width: 78px;
+}
+
+#tvTitleAndSelect {
+  gap: 3;
 }

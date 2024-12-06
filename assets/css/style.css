@@ -167,3 +167,12 @@ input[type="text"] {
 .dropdown-toggle::before {
   display: none !important;
 }
+
+.dropdown-toggle {
+  position: relative !important;
+}
+
+.dropdown-menu.show {
+  position: absolute !important;
+  left: -120px !important;
+}

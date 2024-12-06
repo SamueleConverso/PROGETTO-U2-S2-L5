@@ -84,7 +84,7 @@ a:visited {
   position: relative;
   transition: transform 0.3s ease;
   transition: opacity 0.3s ease;
-  transition: z-index 0s ease;
+  transition-property: z-index;
   opacity: 0.7;
 }
 

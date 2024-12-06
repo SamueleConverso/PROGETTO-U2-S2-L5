@@ -10,10 +10,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="mb-5">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
@@ -76,24 +80,332 @@
         </div>
       </nav>
 
-      <div class="container-fluid">
-        <div class="container">
-          <div id="tvTitleAndSelect" class="d-flex gap-3">
-            <h2>TV Shows</h2>
-            <select
-              id="headSelect"
-              class="form-select"
-              aria-label="Default select example"
-            >
-              <option selected>Genres</option>
-              <option value="1">Genres</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
+      <div id="header2" class="container-fluid d-flex justify-content-between">
+        <div id="tvTitleAndSelect" class="d-flex gap-3 w-100">
+          <h2 class="align-self-center">TV Shows</h2>
+          <select
+            id="headSelect"
+            class="form-select"
+            aria-label="Default select example"
+          >
+            <option selected>Genres</option>
+            <option value="1">Genres</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div
+          class="d-flex align-items-center justify-content-center"
+          id="headBtns"
+        >
+          <i class="bi bi-text-left"></i>
+          <i class="bi bi-border-all"></i>
         </div>
       </div>
     </header>
+
+    <div class="container-fluid mb-3">
+      <h4>Trending Now</h4>
+    </div>
+
+    <div class="container-fluid mb-5">
+      <div
+        id="carouselExampleAutoplaying1"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex flex-column flex-md-row gap-1">
+              <img
+                src="assets/img/media0.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media1.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media2.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media3.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media4.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media5.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex flex-column flex-md-row gap-1">
+              <img
+                src="assets/img/media0.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media1.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media2.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media3.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media4.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media5.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid mb-3">
+      <h4>Watch It Again</h4>
+    </div>
+
+    <div class="container-fluid mb-5">
+      <div
+        id="carouselExampleAutoplaying2"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex flex-column flex-md-row gap-1">
+              <img
+                src="assets/img/media6.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media7.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media8.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media9.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media10.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media11.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex flex-column flex-md-row gap-1">
+              <img
+                src="assets/img/media6.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media7.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media8.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media9.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media10.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media11.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying2"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying2"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid mb-3">
+      <h4>New Releases</h4>
+    </div>
+
+    <div class="container-fluid mb-5">
+      <div
+        id="carouselExampleAutoplaying3"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex flex-column flex-md-row gap-1">
+              <img
+                src="assets/img/media0.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media1.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media2.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media3.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media4.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media5.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex flex-column flex-md-row gap-1">
+              <img
+                src="assets/img/media0.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media1.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media2.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media3.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media4.jpg"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+              <img
+                src="assets/img/media5.webp"
+                class="col-12 col-md-2 h-auto"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying3"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying3"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

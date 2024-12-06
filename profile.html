@@ -98,16 +98,29 @@
                 <div class="btn-group dropdown">
                   <button
                     type="button"
-                    class="btn btn-secondary bg-transparent dropdown-toggle"
+                    class="btn btn-secondary bg-transparent dropdown-toggle bg-dark border-0"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     <i class="bi bi-caret-down-fill"></i>
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark bg-dark text-white"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="profile.html">Utente #1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="profile.html"
+                        >Manage profiles</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Account</a></li>
+                    <li><a class="dropdown-item" href="#">Help Center</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Signout Netflix</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -151,14 +164,21 @@
             <hr />
           </div>
           <div>
-            <p>Autoplay controls</p>
-            <div class="d-flex">
-              <input type="checkbox" id="check1" />
-              <label for="check1"
-                >Autoplay next episode in a series on all devices.</label
-              >
+            <p class="mb-3">Autoplay controls</p>
+            <div class="d-flex gap-1 mb-1">
+              <div>
+                <label class="container" for="checkboxFirstPage">
+                  <input
+                    type="checkbox"
+                    name="checkboxFirstPage"
+                    required
+                    id="checkboxFirstPage"
+                  /><span class="checkmark"></span>Autoplay next episode in a
+                  series on all devices.
+                </label>
+              </div>
             </div>
-            <div class="flex">
+            <div class="d-flex gap-1">
               <input type="checkbox" id="check2" />
 
               <label for="check2"

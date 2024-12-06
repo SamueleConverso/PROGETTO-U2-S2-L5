@@ -25,8 +25,11 @@ header,
 }
 
 .form-select {
+  background-image: url("../img/arrowDown.svg");
   background-color: black;
   width: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.241);
+  border-radius: unset;
 }
 
 .navbar-toggler-icon {
@@ -55,6 +58,15 @@ h4 {
   margin: 0;
 }
 
+p {
+  margin-bottom: 8px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .carousel-inner img {
   transition: transform 0.3s ease;
 }
@@ -63,4 +75,18 @@ h4 {
   cursor: pointer;
   transition-property: transform;
   transform: scale(1.1, 1.1);
+}
+
+.footIcon {
+  font-size: 28px;
+}
+
+.serviceBtn a {
+  border: 1px solid rgba(255, 255, 255, 0.606);
+  padding: 10px;
+}
+
+.serviceBtn a:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.241);
 }

@@ -181,12 +181,12 @@ input[type="text"] {
   vertical-align: middle;
 }
 
-.container {
+.containerCheck1 {
   position: relative;
   padding: 0;
 }
 
-.container input {
+.containerCheck1 input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -203,11 +203,11 @@ input[type="text"] {
   background-color: black;
   border: 2px solid white;
 }
-.container:hover input ~ .checkmark {
+.containerCheck1:hover input ~ .checkmark {
   background-color: black;
 }
 
-.container input:checked ~ .checkmark {
+.containerCheck1 input:checked ~ .checkmark {
   background-color: black;
 }
 
@@ -217,11 +217,11 @@ input[type="text"] {
   display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+.containerCheck1 input:checked ~ .checkmark:after {
   display: block;
 }
 
-.container .checkmark:after {
+.containerCheck1 .checkmark:after {
   left: 5px;
   top: 2px;
   width: 4px;

@@ -170,7 +170,7 @@
           </div>
           <div>
             <p class="mb-3">Autoplay controls</p>
-            <div class="d-flex gap-1 mb-1">
+            <!-- <div class="d-flex gap-1 mb-1">
               <input type="checkbox" id="check2" />
 
               <label for="check2"
@@ -183,7 +183,17 @@
               <label for="check2"
                 >Autoplay previews while browsing on all devices.</label
               >
-            </div>
+            </div> -->
+            <label class="containerCheckBox"
+              >Autoplay next episode in a series on all devices.
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="containerCheckBox"
+              >Autoplay previews while browsing on all devices.
+              <input type="checkbox" checked="checked" />
+              <span class="checkmark"></span>
+            </label>
           </div>
         </div>
       </div>
@@ -200,6 +210,7 @@
         </p>
       </div>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

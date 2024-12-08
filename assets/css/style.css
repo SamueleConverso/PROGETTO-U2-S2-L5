@@ -336,3 +336,23 @@ input[type="text"] {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+#mainSettings {
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+#mainSettings a,
+#mainSettings p,
+#mainSettings h1,
+#mainSettings h2,
+#mainSettings h3,
+#mainSettings h4,
+#mainSettings h5,
+#mainSettings h6 {
+  color: black !important;
+}
+
+#mainSettings hr {
+  border: 1px solid black;
+}

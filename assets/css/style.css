@@ -110,14 +110,40 @@ a:visited {
 
 .carousel-control-prev {
   justify-content: flex-start;
+  align-self: center;
   width: fit-content;
+  height: fit-content;
   z-index: 5;
 }
 
 .carousel-control-next {
   justify-content: flex-end;
+  align-self: center;
   width: fit-content;
+  height: fit-content;
   z-index: 5;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.5 !important;
+  transition: opacity 0.3s !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:focus,
+.carousel-control-prev:active,
+.carousel-control-next:active {
+  opacity: 1 !important;
+}
+
+.carousel-control-prev:focus:not(:hover),
+.carousel-control-next:focus:not(:hover),
+.carousel-control-prev:active:not(:hover),
+.carousel-control-next:active:not(:hover) {
+  opacity: 0.5 !important;
 }
 
 hr {

@@ -337,11 +337,6 @@ input[type="text"] {
   transform: rotate(45deg);
 }
 
-#mainSettings {
-  height: 100vh;
-  background-color: #f3f3f3;
-}
-
 #mainSettings a,
 #mainSettings p,
 #mainSettings h1,

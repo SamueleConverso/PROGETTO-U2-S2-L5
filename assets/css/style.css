@@ -356,3 +356,26 @@ input[type="text"] {
 #mainSettings hr {
   border: 1px solid black;
 }
+
+#mainSettings p {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-2,
+.col-4,
+.col-6,
+.col-10,
+.col-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#mainSettings a {
+  color: #326b9a !important;
+}
